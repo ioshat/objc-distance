@@ -1,0 +1,14 @@
+{
+  "name": "ioshat-objc-distance",
+  "title": "Layer Distance",
+  "version": "0.0.1",
+  "description": "Template for Layer Distance in Objective-C",
+  "main": "dust.js",
+  "category": "distance",
+  "author": "Tomas Ruzicka <tomasruzicka@abdoc.net> (https://github.com/lezuse)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "bundledDependencies": [
+  ]
+}
