@@ -3,6 +3,7 @@
   "title": "Layer Distance",
   "version": "0.0.1",
   "description": "Template for Layer Distance in Objective-C",
+  "scope": "source.objc, source.objc++",
   "main": "dust.js",
   "category": "distance",
   "author": "Tomas Ruzicka <tomasruzicka@abdoc.net> (https://github.com/lezuse)",
