@@ -3,10 +3,10 @@
 
 {?options.distance.x}
 // views {layers[0].name}, {layers[1].name} horizontal distance{~n}
-[self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[{layers[0].name}]-{measures.distanceX}-[{layers[1].name}]" options:0 metrics:nil views:NSDictionaryOfVariableBindings({layers[0].name}, {layers[1].name})]];{~n}{~n}
+[{options.superviewName} addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[{layers[0].name}]-{measures.distanceX}-[{layers[1].name}]" options:0 metrics:nil views:NSDictionaryOfVariableBindings({layers[0].name}, {layers[1].name})]];{~n}{~n}
 {/options.distance.x}
 
 {?options.distance.y}
 // views {layers[0].name}, {layers[1].name} vertical distance{~n}
-[self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[{layers[0].name}]-{measures.distanceY}-[{layers[1].name}]" options:0 metrics:nil views:NSDictionaryOfVariableBindings({layers[0].name}, {layers[1].name})]];{~n}{~n}
+[{options.superviewName} addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[{layers[0].name}]-{measures.distanceY}-[{layers[1].name}]" options:0 metrics:nil views:NSDictionaryOfVariableBindings({layers[0].name}, {layers[1].name})]];{~n}{~n}
 {/options.distance.y}
